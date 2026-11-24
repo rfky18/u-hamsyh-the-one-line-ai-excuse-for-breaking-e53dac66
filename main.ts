@@ -12,7 +12,7 @@ import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 
 const LINE: string =
-  "I thought 'chmod 777' was a wish. It was, and production granted it.";
+  "I rolled production back to the last version that worked. Unfortunately, that was the version from before the company existed.";
 
 const outputDir: string = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 const outputPath: string = join(outputDir, "entry.txt");
